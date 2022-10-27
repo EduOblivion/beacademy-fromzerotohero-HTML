@@ -57,7 +57,7 @@
 <fieldset>
     <legend>Trabalhando com Inputs</legend>
 
-    <!--Input text-->
+    <!--Input text->
 
         <input 
             type="text"
@@ -68,7 +68,7 @@
             title="Preencha o dados"
             readonly
             
-        ><!--Input number--><br>
+        ><!-Input number<br>
 
         <input 
         type="number"
@@ -78,7 +78,7 @@
         maxlength="12"
         title="Preencha o dados"
         >
-        <!--Input email--><br>
+        <!-Input email-><br>
 
         <input 
         type="email"
@@ -87,7 +87,7 @@
         title="Preencha o dados"
         ><br>
 
-        <!--Input senha-->
+        <!-Input senha->
 
         <input 
         type="password"
@@ -99,20 +99,51 @@
         inputmode="numeric"
         ><br>
 
-        <!--Input hidden-->
+        <!-Input hidden->
         <input type="hidden" value="Eu estou escondido =)"><br>
 
-        <!--Input color-->
+        <!-Input color->
         <input type="color"><br>
 
-        <!--Input date,week,datetime-->
+        <!-Input date,week,datetime->
         <input type="datetime-local">
     
 
 
         <button type="submit">Enviar</button>
-        
-        
+    -->
+
+    <!--Input type = Check(Checkbox)-->
+
+    <label for="area">
+        Seu interesse maior é por qual área?
+    </label>
+
+    <div>
+        <input type="checkbox" name="interesse" id="frontend" value="Front-End Luan Monteiro" checked><label for="frontend">Front-End Luan Monteiro</label> 
+
+        <input type="checkbox" name="interesse" id="backend" value="Back-End Regis Santos"><label for="backend">Back-End Regis Santos</label>
+        <input type="checkbox" name="interesse" id="designuiux" value="Design UI/UX Jenifer Vieira"><label for="designuiux">Design UI/UX Jenifer Vieira</label>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- interesse = front-end Luan Monteiro, Back-end Regis... -->
+
+    <!-- Radio Button-->
+
+    <h3>Deseja receber notificação da be.academy</h3>
+    <label for="yes">Sim</label>
+    <input type="radio" id="yes" name="notification" checked value="yes">
+
+    <label for="no">Não</label>
+    <input type="radio" id="no" name="notification" value="no">
+    
+    <button type="submit">Enviar</button>
+
 </fieldset>
 
 
