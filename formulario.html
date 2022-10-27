@@ -86,15 +86,29 @@
         size="24"
         title="Preencha o dados"
         ><br>
+
+        <!--Input senha-->
+
         <input 
         type="password"
         placeholder="Preencha a sua senha"
         size="24"
-        minlength="8"
-        maxlength="16"
-        title="Preencha o dados"
+        title="Sua senha precisa ser em Hexadecimal"
+        pattern="[0-9a-fA-F][4,8]"
         required
+        inputmode="numeric"
         ><br>
+
+        <!--Input hidden-->
+        <input type="hidden" value="Eu estou escondido =)"><br>
+
+        <!--Input color-->
+        <input type="color"><br>
+
+        <!--Input date,week,datetime-->
+        <input type="datetime-local">
+    
+
 
         <button type="submit">Enviar</button>
         
