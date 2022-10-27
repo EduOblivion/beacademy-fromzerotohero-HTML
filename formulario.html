@@ -12,6 +12,48 @@
         <legend>Preencha o Formulário de contato</legend>
     </fieldset>
 
-    <!--Button-->
+    <!--Button
     <button type="button" name="" class="" id="" >Enviar</button>
+    -->
+
+    <!--
+        Label
+            * Associar e identificar um ou mais tag de entrada de dados
+            * Ajuda bastante na acessibilidade
+
+        Atributos:
+            - for
+                * Usado para fazer a conexão com outros tipos de elementos de formulários
+    
+
+
+
+    <label>
+        Nome:
+        <input type="text" id="nome">
+    </label>
+
+    <label for="age">Idade</label>
+    <input type="number" id="age">
+-->
+
+<!--
+    <datalist>
+        *Lista de valores com sugestões para algum elemento input
+        * Usuário poderá selecionar um dos valores ou colocar novos valores
+-->
+
+    <!--lista de professores-->
+
+    <datalist id="prof-list">
+        <option>Luan</option>
+        <option>Jenifer</option>
+        <option>Regis</option>
+    </datalist>
+
+    <input type="text" list="prof-list" placeholder="Escolha seu professor">
+
+
+
 </form>
+
